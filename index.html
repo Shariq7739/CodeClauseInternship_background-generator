@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <h1>Background Generator</h1>
+      <p>Create beautiful gradient backgrounds for your projects.</p>
+    </header>
+
+    <main>
+      <section class="controls">
+        <h2>Controls</h2>
+        
+        <div class="control-group">
+            <label>Colors:</label>
+            <div id="color-inputs">
+                <input type="color" class="color-input" value="#ff8c00">
+                <input type="color" class="color-input" value="#ff0080">
+            </div>
+            <button id="add-color">+</button>
+            <button id="remove-color">-</button>
+        </div>
+
+        <div class="control-group">
+            <label>Gradient Type:</label>
+            <div class="radio-group">
+                <input type="radio" id="linear" name="gradient-type" value="linear" checked>
+                <label for="linear">Linear</label>
+                <input type="radio" id="radial" name="gradient-type" value="radial">
+                <label for="radial">Radial</label>
+            </div>
+        </div>
+
+        <div class="control-group" id="angle-control">
+            <label for="angle">Angle:</label>
+            <input type="range" id="angle" min="0" max="360" value="90">
+            <span id="angle-value">90°</span>
+        </div>
+        
+        <div class="control-group">
+            <button id="random-gradient">Random Gradient</button>
+        </div>
+
+      </section>
+      <section class="preview">
+        <h2>Live Preview</h2>
+        <div class="background-preview"></div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="css-code">
+        <h3>CSS Code</h3>
+        <textarea id="css-output" readonly></textarea>
+        <button id="copy-css">Copy CSS</button>
+      </div>
+      <div class="export">
+        <h3>Export</h3>
+        <button id="download-image">Download as Image</button>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

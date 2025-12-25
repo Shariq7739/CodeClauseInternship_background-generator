@@ -1,3 +1,3 @@
-Get started by customizing your environment (defined in the .idx/dev.nix file) with the tools and IDE extensions you'll need for your project!
+# Background Generator
 
-Learn more at https://developers.google.com/idx/guides/customize-idx-env
+This project is a web application that allows users to create visually appealing gradient backgrounds with real-time preview and customization options.
