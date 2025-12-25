@@ -1,3 +1,5 @@
+https://bggenerate.netlify.app/
+
 # 🎨 Background Generator
 
 This is a web-based tool that allows users to create beautiful, custom gradient backgrounds. It provides a real-time preview and generates the corresponding CSS code, making it easy to create and export stunning gradients for any project. The application features a sleek, modern dark theme and a responsive user interface.
